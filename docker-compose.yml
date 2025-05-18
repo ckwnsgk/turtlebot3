@@ -9,8 +9,6 @@ services:
     image: junha02/ros:pi1-jazzy-turtlebot
     tty: true
     restart: always
-    ports:
-      - "9090:9090" 
     cap_add:
       - SYS_NICE
     ulimits:
